@@ -1,0 +1,18 @@
+---
+driver:
+  name: vagrant
+
+verifier:
+  name: inspec
+
+provisioner:
+  name: chef_solo
+
+platforms:
+  - name: centos/7
+
+suites:
+  - name: default
+    verifier:
+      inspec_tests:
+        - path: controls/0423.rb

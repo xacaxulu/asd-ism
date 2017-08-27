@@ -1,0 +1,8 @@
+name: asd-ism
+title: Australian Signals Directorate Information Security Manual Controls
+maintainer: James Denman
+copyright: Contino, PTY
+copyright_email: james.denman@contino.io
+license: Apache-2.0
+summary: An InSpec Compliance Profile for Australian Signals Directorate Information Security Manual Controls
+version: 0.1.0
